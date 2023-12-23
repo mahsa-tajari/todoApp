@@ -1,0 +1,12 @@
+.container {
+  max-width: 300px;
+  padding: 2rem;
+  background-color: #278d8d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: flex-start;
+  position: relative;
+  height: 100%;
+}

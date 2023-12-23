@@ -1,0 +1,31 @@
+swiper-container {
+  width: 100%;
+  overflow: hidden;
+}
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+swiper-slide {
+  width: 3.5rem !important;
+  height: 6rem;
+  color: #9ca3af;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+.swiper-slide-active {
+  color: #d6b170;
+  border: 2px solid #d6b170;
+  font-weight: bold;
+  background-color: #b1f3de;
+}
+.date-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

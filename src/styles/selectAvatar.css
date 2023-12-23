@@ -1,0 +1,43 @@
+.avatars-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  position: relative;
+}
+.avatars-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 30rem;
+  gap: 1rem;
+}
+.avatar-photo-wrapper {
+  width: 5rem;
+  overflow: hidden;
+  border: 2px solid transparent;
+  display: flex;
+  border-radius: 0.3rem;
+  transition: all ease 200ms;
+}
+.avatar-photo-wrapper:not(.active):hover {
+  border: 2px solid #fbbf24;
+}
+.avatar-photo-wrapper img {
+  width: 100%;
+  cursor: pointer;
+}
+.gender-wrapper {
+  min-width: 300px !important;
+}
+.photos-form--input {
+  align-items: center;
+}
+.photos-form-wrapper {
+  width: 100%;
+}
+.active {
+  border: 2px solid #059669 !important;
+}
