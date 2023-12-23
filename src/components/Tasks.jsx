@@ -22,6 +22,7 @@ export default function Tasks({ activeDate }) {
   function createTodo(newTask) {
     newTask.createdAt = activeDate.day;
     setTasks((tasks) => [...tasks, newTask]);
+    sortTasks();
   }
 
   function deleteTodoHandler(id) {
